@@ -423,3 +423,11 @@ compile_commands.json
 
 
 # End of https://www.toptal.com/developers/gitignore/api/latex,qt,qtcreator,c++
+
+
+# drawio
+*.bkp
+*.dtmp
+
+
+**/.vscode
