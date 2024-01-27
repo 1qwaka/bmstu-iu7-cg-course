@@ -212,7 +212,7 @@ public:
 
             if (ints)
             {
-                if (t < closest_t)
+                if (t < closest_t && t > 0)
                 {
                     closest_t = t;
                     norm = o->norms.at(i);

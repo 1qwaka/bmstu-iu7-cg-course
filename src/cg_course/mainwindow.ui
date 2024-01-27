@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1194</width>
-    <height>1233</height>
+    <width>1130</width>
+    <height>657</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -39,7 +39,7 @@
        </size>
       </property>
       <property name="currentIndex">
-       <number>4</number>
+       <number>0</number>
       </property>
       <widget class="QWidget" name="tab_1">
        <attribute name="title">
@@ -63,8 +63,8 @@
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>439</width>
-             <height>993</height>
+             <width>425</width>
+             <height>956</height>
             </rect>
            </property>
            <layout class="QGridLayout" name="gridLayout_4">
@@ -1188,7 +1188,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1194</width>
+     <width>1130</width>
      <height>25</height>
     </rect>
    </property>

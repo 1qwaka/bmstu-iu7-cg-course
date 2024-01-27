@@ -207,7 +207,7 @@ public:
 
         for (int x = -2; x < 0; x++){
             for (int y = -2; y < 0; y++){
-                scene.add(new Sphere({(float)x, (float)y, 5}, 0.5, Material{QColor{
+                scene.add(new Sphere({(float)x, (float)y, 4}, 0.5, Material{QColor{
                                                             std::clamp(200 + (int)(std::abs(x) / 5.0 * 128), 0, 255),
                                                             std::clamp(150 + (int)(std::abs(y) / 5.0 * 128), 0, 255),
                                                             std::clamp(200 + (int)(std::abs(y + x) / 5.0 * 128), 0, 255),
@@ -232,7 +232,7 @@ public:
 
         for (int x = 0; x <= 2; x++){
             for (int y = 0; y <= 2; y++){
-                scene.add(PolyObject::make_prism(   {(float)x, (float)y, 5},
+                scene.add(PolyObject::make_prism(   {(float)x, (float)y, 6},
                                                     {0, 0, float(y * 20 + x)},
                                                     0.5 + x * 0.1f,
                                                     0.4,
@@ -247,7 +247,7 @@ public:
 
         for (int x = -2; x < 0; x++){
             for (int y = 0; y <= 2; y++){
-                scene.add(PolyObject::make_pyramid({(float)x, (float)y, 5},
+                scene.add(PolyObject::make_pyramid({(float)x, (float)y, 7},
                                                     {0, 0, float(y * 20 + x)},
                                                     0.5 + x * 0.1f,
                                                     0.4,
